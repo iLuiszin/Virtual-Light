@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.svg" alt="logo" width="100">
+        <h1>Lampada</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                <img id="light" src="img/lightbulb.svg" alt="">
+            </p>
+            <p id="buttons">
+                <input class="btn" id="btn-on" type="button" value="Ligar" onclick="TurnOn()">
+                <input class="btn" id="btn-off" type="button" value="Desligar" onclick="TurnOff()">
+            </p>
+            <p style="margin-top: 50px;">
+                <input class="btn" style="background-color: green;" type="button" value="Reconstruir" onclick="window.location.reload()">
+            </p>
+
+        </div>
+
+
+
+
+    </section>
+
+    <script src="js/lampada.js"></script>
+
+</body>
+
+</html>
